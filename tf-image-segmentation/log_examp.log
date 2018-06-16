@@ -1,0 +1,12 @@
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:tensorflow:From /Users/zetao.zhang/Desktop/py_work/tf-image-segmentation/tf_image_segmentation/utils/inference.py:61: calling argmax (from tensorflow.python.ops.math_ops) with dimension is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+INFO:tensorflow:Restoring parameters from ./fcn_8s_checkpoint/model_fcn8s_final.ckpt

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <title>图片分割</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body class="backgroundImage">
+
+    <!--左边输入框-->
+    <div class="inputImage inputImageLeft lineStyle">
+        <img id="upload" src="images/chinesetable.png">
+        <!--<input type="submit" id="button_upload" value="上传">-->
+    </div>
+
+    <!--中间按钮-->
+    <div class="middleBtn centerStyle">
+        <form enctype="multipart/form-data" method="post" id="formTable">
+            <input id="selectFile" name="selectFile" class="uploadButton" type="file"/>
+        </form>
+        <select id="list">
+            <option value="0">图像背景</option>
+            <option value="1">飞机</option>
+            <option value="2">自行车</option>
+            <option value="3">鸟</option>
+            <option value="4">船</option>
+            <option value="5">瓶子</option>
+            <option value="6">公交</option>
+            <option value="7">汽车</option>
+            <option value="8">猫咪</option>
+            <option value="9">椅子</option>
+            <option value="10">牛</option>
+            <option value="11">餐桌</option>
+            <option value="12">小狗</option>
+            <option value="13">房子</option>
+            <option value="14">摩托车</option>
+            <option value="15">人</option>
+            <option value="16">盆栽</option>
+            <option value="17">绵羊</option>
+            <option value="18">沙发</option>
+            <option value="19">火车</option>
+            <option value="20">电视</option>
+        </select>
+        <button id="seg" name="seg" class="segmentationButton" disabled="disabled">分割</button>
+    </div>
+    <!--右边输入框-->
+    <div class="inputImage inputImageRight lineStyle">
+        <img id="result" src="images/chinesetable.png">
+    </div>
+
+</body>
+</html>

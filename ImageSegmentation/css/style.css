@@ -1,0 +1,70 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.backgroundImage {
+    background: linear-gradient(to bottom, #BCC5CE, #A2A2FF);
+}
+
+.centerStyle {
+    margin: auto;
+}
+
+.lineStyle {
+    border: #929EAD;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+.inputImage {
+    margin-top: 5%;
+    width: 35%;
+    height: 60%;
+}
+
+select {
+    width: 40%;
+    height: 4%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.segmentationButton {
+    width: 5%;
+    height: 3%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.uploadButton {
+    width: 30%;
+    height: 4%;
+    float: left;
+    margin-top: 90%;
+    margin-left: 40%;
+}
+
+.inputImageLeft {
+    margin-left: 4%;
+    float: left;
+}
+
+.inputImageRight {
+    margin-right: 5%;
+    float: right;
+}
+
+.middleBtn {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+img {
+    width: 90%;
+    height: 90%;
+}
